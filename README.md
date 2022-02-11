@@ -75,7 +75,7 @@ The Polymesh Grants Program offers different grant levels to help you best depen
 
 ## :pencil: Process
 
-> **:loudspeaker:** The process below is independent of the [level](#level_slider-levels). Payment is made in USDC.  
+> **:loudspeaker:** The process below is independent of the [level](#level_slider-levels). Payment is made in POLYX.  
 
 ### 1. Application
 

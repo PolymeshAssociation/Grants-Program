@@ -5,7 +5,7 @@
 
 - **Project Name:** Name of your project (e.g. Cool Wallet)
 - **Team Name:** Legal name of your team (e.g. Acme)
-- **Payment Address:** Ethereum (USDC) payment address. Please also specify the currency.  
+- **Payment Address:** Polymesh (POLYX) payment address. Please also specify the currency.  
 - **Level:** 1, 2 or 3
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
@@ -121,7 +121,7 @@ For each milestone,
 
 - **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
 - **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; since the grant is paid out in USDC, the amount will be calculated according to the exchange rate at the time of payment.
+- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; since the grant is paid out in POLYX, the amount will be calculated according to the exchange rate at the time of payment.
 
 ### Milestone 1 Example — Implement Substrate Modules
 
