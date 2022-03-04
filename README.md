@@ -20,6 +20,8 @@
 
 At the Polymesh Association, we want to improve and extend the Polymesh ecosystem. We offer a Grants Program to award grants to our community developers for building and extending Polymesh features. In this repo, you'll find how to apply for a grant using our Grants Program. For more information about Polymesh, visit our [website](https://polymesh.network).
 
+This grant process whilst based on the Web3 Grants programme (https://github.com/w3f/Grants-Program) is otherwise unassociated with the Web3 Grants programme.
+
 ### Guidelines
 
 Anyone is welcome to apply for a grant. Projects funded through our programs are broad in scope, but our focus lies on strong **technical** projects that add value to the Polymesh ecosystem.
