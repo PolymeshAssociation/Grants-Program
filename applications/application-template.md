@@ -12,7 +12,7 @@
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an [RFPs](https://github.com/PolymeshAssociation/Grants-Program/tree/master/rfp-proposal), please indicate this on the first line of this section.
+If this application is in response to an [RFPs](https://github.com/PolymeshAssociation/Grants-Program/tree/main/rfp-proposal), please indicate this on the first line of this section.
 
 If this is an application for a follow-up grant (the continuation of an earlier, successful Polymesh grant), please provide name and/or pull request of said grant on the first line of this section.
 
@@ -93,7 +93,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
-- links to improvement proposals or [RFPs](https://github.com/PolymeshAssociation/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
+- links to improvement proposals or [RFPs](https://github.com/PolymeshAssociation/Grants-Program/tree/main/rfp-proposal) (requests for proposal),
 - academic publications relevant to the problem,
 - links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
 - references to conversations you might have had related to this project with anyone from the Web3 Foundation,
