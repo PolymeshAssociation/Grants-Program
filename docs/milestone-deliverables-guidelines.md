@@ -7,8 +7,8 @@ These are the guidelines to be followed for milestones submitted for evaluation.
 Please submit all your milestones via PR to the [Grant Milestone Delivery repository](https://github.com/PolymeshAssociation/Grants-Milestone-Delivery/Grant-Milestone-Delivery).
 
 ## Invoice
-<!-- TODO -->
-Once a milestone is reviewed and approved, you can send your invoices invoices@polymath.network
+
+Once a milestone is reviewed and approved, you can send your invoices finance@polymath.network
 
 ## Content
 

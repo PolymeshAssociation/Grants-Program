@@ -18,7 +18,7 @@
 
 ## :wave: Introduction
 
-At Polymesh, we want to improve the Polymesh ecosystem. We offer a Grants Program to award monetary grants to our community developers for building and extending Polymesh features. In this repo, you'll find how to apply for a grant using our Grants Program. For more information about Polymesh, visit our [website](https://polymesh.network).
+At the Polymesh Association, we want to improve and extend the Polymesh ecosystem. We offer a Grants Program to award grants to our community developers for building and extending Polymesh features. In this repo, you'll find how to apply for a grant using our Grants Program. For more information about Polymesh, visit our [website](https://polymesh.network).
 
 ### Guidelines
 
@@ -41,15 +41,12 @@ Additionally, it must fulfill the following requirements:
 
 In addition to the information provided on your application, note that your project will need to comply with our [Guidelines for Milestone Deliverables](docs/milestone-deliverables-guidelines.md). In particular, we require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required for funding. Tutorials or videos are also helpful for new users to understand how to use your product.
 
-Please also heed our [Announcement Guidelines](docs/announcement-guidelines.md) for grant-related communications.
-
 Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognised for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
-
-We also try to enforce our [code of conduct](CODE_OF_CONDUCT.md) and based on [this](https://github.blog/2016-04-04-organizations-can-now-block-abusive-users/) may block users.
 
 ### Project ideas
 
 [Requests For Proposals](rfps) (RFPs) represent concrete ideas for projects that we would like to see implemented and can be a good example of ideas to consider. Several teams may apply for the same RFP, so even if another team has already applied to implement a certain RFP, we invite you to do the same if you're interested.  
+
 ### Support
 
 The scope of our Grants Programs consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. We encourage you to join the [community](https://developers.polymesh.network/community/) in order to get help with specific issues or to stay up to date with the most recent developments.
@@ -61,21 +58,21 @@ The Polymesh Grants Program offers different grant levels to help you best depen
 ### :hatching_chick: Level 1 (= InstaGrants)<!-- omit in toc -->
 
 - **Target:** Individuals & small teams
-- **Amount:** Up to US$10,000
+- **Amount:** Up to US$10,000 (paid in POLYX)
 
 ### :baby_chick: Level 2<!-- omit in toc -->
 
 - **Target:** Small teams/start-ups
-- **Amount:** Up to US$30,000
+- **Amount:** Up to US$30,000 (paid in POLYX)
 
 ### :rooster: Level 3<!-- omit in toc -->
 
 - **Target:** Companies/foundations with a proven track record
-- **Amount:** Up to US$50,000
+- **Amount:** Up to US$50,000 (paid in POLYX)
 
 ## :pencil: Process
 
-> **:loudspeaker:** The process below is independent of the [level](#level_slider-levels). Payment is made in POLYX.  
+> **:loudspeaker:** The process below is independent of the [level](#level_slider-levels).
 
 ### 1. Application
 
@@ -109,7 +106,7 @@ The Polymesh Grants Program offers different grant levels to help you best depen
 
 If you think that we should support the development of certain tools or projects that aren't in the Polymesh ecosystem, feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
 
-**Submit an RFP (Request for Proposals):** <!--TODO-->
+**Submit an RFP (Request for Proposals):**
 
 Ideas generally have better chances of being implemented if they're presented in a project outline format that can be picked up straight away by a team, so if you have a good concept of the milestones required to bring your project to life, you can follow the process below and directly submit an RFP:
 
@@ -126,7 +123,7 @@ Ideas generally have better chances of being implemented if they're presented in
 
 | <img src="src/web.png?s=50" width="50"> | <img src="src/twitter.png?s=50" width="50"> | <img src="src/medium.png?s=50" width="50"> | <img src="src/youtube-play.png?s=50" width="50"> |
 | :-: | :-: | :-: | :-: |
-| [Polymesh Website](https://polymesh.network) | [Polymesh Twitter](https://twitter.com/polymeshNetwork/) | [Polymesh Medium](https://polymesh.network/blog) | [Polymesh YouTube](https://www.youtube.com/c/PolymeshNetwork) |
+| [Polymesh Website](https://polymesh.network) | [Polymesh Twitter](https://twitter.com/PolymeshNetwork/) | [Polymesh Medium](https://polymesh.network/blog) | [Polymesh YouTube](https://www.youtube.com/c/PolymeshNetwork) |
 
 
 ### Real-time conversation

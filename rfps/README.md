@@ -1,13 +1,20 @@
 # Requests for Proposals
 
-- [:grey_question: What is an RFP?](#grey_question-what-is-an-rfp)
-- [:scroll: List of current RFPs](#scroll-list-of-current-rfps)
-  - [Finance Orientated Block Explorer](#finance-orientated-block-explorer)
-  - [Hardware Wallet Integration](#hardware-wallet-integration)
-  - [Double Entry Accounting Style Export](#double-entry-accounting-style-export)
-  - [Enterprise Software Wallet Integration](#enterprise-software-wallet-integration)
-  - [WalletConnect for Substrate](#walletconnect-for-substrate)
-  - [Source Connector for Kafka Connect](#source-connector-for-kafka-connect)
+- [Requests for Proposals](#requests-for-proposals)
+  - [:grey_question: What is an RFP?](#grey_question-what-is-an-rfp)
+  - [:scroll: List of current RFPs](#scroll-list-of-current-rfps)
+    - [Security Token Orientated Block Explorer](#security-token-orientated-block-explorer)
+      - [Project Description :page_facing_up:](#project-description-page_facing_up)
+    - [Hardware Wallet Integration](#hardware-wallet-integration)
+      - [Project Description :page_facing_up:](#project-description-page_facing_up-1)
+    - [Double Entry Accounting Style Export](#double-entry-accounting-style-export)
+      - [Project Description :page_facing_up:](#project-description-page_facing_up-2)
+    - [Enterprise Software Wallet Integration](#enterprise-software-wallet-integration)
+      - [Project Description :page_facing_up:](#project-description-page_facing_up-3)
+    - [WalletConnect for Substrate](#walletconnect-for-substrate)
+      - [Project Description :page_facing_up:](#project-description-page_facing_up-4)
+    - [Source Connector for Kafka Connect](#source-connector-for-kafka-connect)
+      - [Project Description :page_facing_up:](#project-description-page_facing_up-5)
 
 
 ## :grey_question: What is an RFP?
@@ -18,15 +25,14 @@ If you find an open RFP here that you think you can address, feel free to [submi
 
 ## :scroll: List of current RFPs
 
-### Finance Orientated Block Explorer
+### Security Token Orientated Block Explorer
 
-- Published: TBD <!--TODO-->
 - [:arrow_right: finance-orientated-block-explorer.md](./finance-orientated-block-explorer.md)
 - **Proposer:** Polymath Research
 
 #### Project Description :page_facing_up:
 
-A block explorer that is orientated to our exact data, showing assets, settlements, identity based data.
+A chain explorer that is orientated to our exact data, showing assets, settlements, identity based data.
 
 **Business Rationale:** Moves away from the generic Subscan based explorer to something that leverages our layer 1 data more directly. Possible starting point for a reporting portal.
 
@@ -38,7 +44,6 @@ A block explorer that is orientated to our exact data, showing assets, settlemen
 
 ### Hardware Wallet Integration
 
-- Published: TBD <!--TODO-->
 - [:arrow_right: hardware-wallet-integration.md](./hardware-wallet-integration.md)
 - **Proposer:** Polymath Research
 
@@ -56,7 +61,6 @@ Integrate Polymesh with additional hardware wallets (e.g. non-Ledger models).
 
 ### Double Entry Accounting Style Export
 
-- Published: TBD <!--TODO-->
 - [:arrow_right: double-entry-accounting-style-export.md](./double-entry-accounting-style-export.md)
 - **Proposer:** Polymath Research
 
@@ -66,7 +70,7 @@ Report export (or maybe integration to something like Quickbooks/Freshbooks etc)
 
 **Business Rationale:** Assist with financial reporting for investors.
 
-**Approximate time (person week):** 6 weeks+2 weeks per integration.
+**Approximate time (person week):** 6 weeks + 2 weeks per integration.
 
 **Impacted Components:** Core / SubQuery.
 
@@ -74,13 +78,12 @@ Report export (or maybe integration to something like Quickbooks/Freshbooks etc)
 
 ### Enterprise Software Wallet Integration
 
-- Published: TBD <!--TODO-->
 - [:arrow_right: enterprise-software-wallet-integration.md](./enterprise-software-wallet-integration.md)
 - **Proposer:** Polymath Research
 
 #### Project Description :page_facing_up:
 
-Add Polymesh token support to the API one of enterprise wallets like [Zumo](https://developers.zumo.money/docs/).
+Add Polymesh support to the API one of enterprise wallets like [Zumo](https://developers.zumo.money/docs/).
 
 **Business Rationale:** Provide more ways to onboard new users and provide a fiat on-ramp.
 
@@ -92,7 +95,6 @@ Add Polymesh token support to the API one of enterprise wallets like [Zumo](http
 
 ### WalletConnect for Substrate
 
-- Published: TBD <!--TODO-->
 - [:arrow_right: walletconnect-for-substrate.md](./walletconnect-for-substrate.md)
 - **Proposer:** Polymath Research
 
@@ -110,7 +112,6 @@ Allows any backend wallet software to be used within a dApp.
 
 ### Source Connector for Kafka Connect
 
-- Published: TBD <!--TODO-->
 - [:arrow_right: source-connector-for-kafka-connect.md](./source-connector-for-kafka-connect.md)
 - **Proposer:** Polymath Research
 
@@ -118,13 +119,13 @@ Allows any backend wallet software to be used within a dApp.
 
 This allows to stream all events from Polymesh to Kafka systems. It can be then transformed, stored, accessed from many other systems.
 
-**Business Rationale:** Apache Kafka is most widely used messaging platform that can be used as a single source of truth for all data in a company. 
-
 As an example in case of Polymath, one of the use cases would be current GraphQL implementation. At the moment it uses dedicated software that gets the data from the blockchain, saves it to a postgresql db and from there it can be accessed as GraphQL endpoint. If there is any other use case to use the full chain data, there is a high chance we would need to build that new solution from scratch, and we would have another system that synchronizes with the blockchain.
 
 Kafka as a source of truth could be used by any number of applications. It also supports schema evolution so there is a chance we would not have to resync everything from scratch each time an update is made.
 
 Other companies could use that for whatever use cases they can think of, so for instance a token issuer could configure the connector to subscribe to events related to their tokens only.
+
+**Business Rationale:** Apache Kafka is most widely used messaging platform that can be used as a single source of truth for all data in a company. 
 
 **Approximate time (person week):** 2 weeks.
 

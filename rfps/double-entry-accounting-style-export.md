@@ -9,6 +9,6 @@ Report export (or maybe integration to something like Quickbooks/Freshbooks etc)
 
 **Business Rationale:** Assist with financial reporting for investors.
 
-**Approximate time (person week):** 6 weeks+2 weeks per integration.
+**Approximate time (person week):** 6 weeks + 2 weeks per integration.
 
 **Impacted Components:** Core / SubQuery.

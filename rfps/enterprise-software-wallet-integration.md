@@ -5,7 +5,7 @@
 
 ## Project Description :page_facing_up: 
 
-Add Polymesh token support to the API one of enterprise wallets like [Zumo](https://developers.zumo.money/docs/).
+Add Polymesh support to the API one of enterprise wallets like [Zumo](https://developers.zumo.money/docs/).
 
 **Business Rationale:** Provide more ways to onboard new users and provide a fiat on-ramp.
 
