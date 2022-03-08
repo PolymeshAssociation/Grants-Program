@@ -8,7 +8,7 @@ Please submit all your milestones via PR to the [Grant Milestone Delivery reposi
 
 ## Invoice
 
-Once a milestone is reviewed and approved, you can send your invoices finance@polymath.network
+Once a milestone is reviewed and approved, you can send your invoices finance@polymesh.network
 
 ## Content
 

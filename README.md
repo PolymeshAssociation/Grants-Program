@@ -12,6 +12,7 @@
   - [3. Milestone Delivery and Payment](#3-milestone-delivery-and-payment)
   - [Changes to a Grant after Approval](#changes-to-a-grant-after-approval)
 - [:mailbox_with_mail: Suggest a Project](#mailbox_with_mail-suggest-a-project)
+- [:pray: Acknowledgements](#pray-acknowledgements)
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
@@ -19,8 +20,6 @@
 ## :wave: Introduction
 
 At the Polymesh Association, we want to improve and extend the Polymesh ecosystem. We offer a Grants Program to award grants to our community developers for building and extending Polymesh features. In this repo, you'll find how to apply for a grant using our Grants Program. For more information about Polymesh, visit our [website](https://polymesh.network).
-
-This grant process whilst based on the Web3 Grants programme (https://github.com/w3f/Grants-Program) is otherwise unassociated with the Web3 Grants programme.
 
 ### Guidelines
 
@@ -118,6 +117,10 @@ Ideas generally have better chances of being implemented if they're presented in
 5. Once you're done, create a pull request. The pull request should only contain _one new file_—the Markdown file you created from the template.
 6. You will see the same template as for creating an application. Please replace it with [this one](.github/PULL_REQUEST_TEMPLATE/rfp_pr_template.md).
 
+## :pray: Acknowledgements
+
+Thank you to the Web3 Foundation for creating their excellent grants program (https://github.com/w3f/Grants-Program) which inspired our grants program.
+
 ## :bulb: Help
 
 ### Additional information
@@ -125,7 +128,6 @@ Ideas generally have better chances of being implemented if they're presented in
 | <img src="src/web.png?s=50" width="50"> | <img src="src/twitter.png?s=50" width="50"> | <img src="src/medium.png?s=50" width="50"> | <img src="src/youtube-play.png?s=50" width="50"> |
 | :-: | :-: | :-: | :-: |
 | [Polymesh Website](https://polymesh.network) | [Polymesh Twitter](https://twitter.com/PolymeshNetwork/) | [Polymesh Medium](https://polymesh.network/blog) | [Polymesh YouTube](https://www.youtube.com/c/PolymeshNetwork) |
-
 
 ### Real-time conversation
 
