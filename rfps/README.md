@@ -11,7 +11,7 @@
       - [Project Description :page_facing_up:](#project-description-page_facing_up-2)
     - [Enterprise Software Wallet Integration](#enterprise-software-wallet-integration)
       - [Project Description :page_facing_up:](#project-description-page_facing_up-3)
-    - [WalletConnect for Substrate](#walletconnect-for-substrate)
+    - [Mobile Wallet Options for Polymesh](#mobile-wallet-options-for-polymesh)
       - [Project Description :page_facing_up:](#project-description-page_facing_up-4)
     - [Source Connector for Kafka Connect](#source-connector-for-kafka-connect)
       - [Project Description :page_facing_up:](#project-description-page_facing_up-5)
@@ -93,16 +93,18 @@ Add Polymesh support to the API one of enterprise wallets like [Zumo](https://de
 
 ----
 
-### WalletConnect for Substrate
+### Mobile Wallet Options for Polymesh 
 
 - [:arrow_right: walletconnect-for-substrate.md](./walletconnect-for-substrate.md)
 - **Proposer:** Polymath Research
 
 #### Project Description :page_facing_up:
 
-Allows any backend wallet software to be used within a dApp.
+Approaches like WalletConnect allow a dApp to delegate transaction signing to any arbitrary wallet, including mobile wallets, via QR codes and direct communication with the wallet.
 
-**Business Rationale:** Allows custodial wallet solutions (e.g. DigiVault).
+This broadens the range of wallets that could be used with Polymesh dApps giving users more choices for how to secure their private keys.
+
+**Business Rationale:** Allows a broader range of wallet solutions, including both custodial, MPC-based and self-custodial.
 
 **Approximate time (person week):** 12 weeks.
 
