@@ -35,14 +35,13 @@ We expect the teams to already have a solid idea about your project's expected f
 - Mockups/designs of any UI components  
 
 Please refer to the **otcDigital FIAT Transfer.png** file for a sample UI  
-![image not found] (applications/otcDigital FIAT Transfer.png "FIAT Transfer")
 
 - Data models / API specifications of the core functionality  
 
 The data model will be primarily based on JSON to reflect the transfer functions and the core transfer features will reflect Polymesh asset transfer functions. In addition, the model will specify the Currency, Issuer, Department, Customer ID, Customer Account fields for minting and redemption of fiat tokens. 
 - An overview of the technology stack to be used  
 
-Please refer to the **otcDigital FIAT Tech Stack.png** file. The technology architecture enables multiple departments within a bank can independently or collectively interact with the gateway for managing FIAT tokens. 
+Please refer to the **FIAT Gateway Tech stack.png** file. The tech stack consists of Polymesh local, HashiCorp Vault for development specific key management, otc fiat gateway, Apache Kafka for pub-sub events between banks and their customers. The technology architecture enables multiple departments within a bank can independently or collectively interact with the gateway for managing FIAT tokens. 
 - Documentation of core components, protocols, architecture, etc. to be deployed
 
 Core Components: Gateway services written in Kotlin, Java. Apache Kafka (open-source platform for integration with core banking systems), HashiCorp Vault for basic Polymesh key management, Polymesh Relayer docker service for connecting to the Polymesh Node
@@ -58,6 +57,7 @@ In Polymesh, we have deployed and tested simple FIAT tokens such as RUSD, RGBP
 
     - The gateway is stateless and hence it does not provide any historic data of prior transactions
     - No UI will be provided as the gateway is a service
+    - No core banking functions regarding FIAT accounts will be provided
 
 ### Ecosystem Fit
 
@@ -190,39 +190,41 @@ For each milestone,
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** on linkedIn that explains the virtues of the gateway.
 | 1. | Infrastructure Setup Documentation | We will provide an outline document to setup components such as Apache Kafka, HashiCorp Vault, Polymesh Local |  
-| 2. | Apache Kafka Setup | We will create apache kafka infrastructure for the developement environment |  
-| 3. | HashiCorp Vault Setup | The vault infrastructure will be setup for development environment |  
-| 4. | Polymesh Local Setup | The Polymesh Local docker infrastructure will be setup for development environment |  
+| 2. | Apache Kafka Setup | We will create Apache Kafka infrastructure for the developement environment |  
+| 3. | HashiCorp Vault Setup | The Vault infrastructure will be setup for development environment |  
+| 4. | Polymesh Local Setup | The latest Polymesh Local docker infrastructure will be setup for development environment |  
 
 
 ### Milestone 2 — Configuration and testing scripts
 
 - **Estimated Duration:** 1 month
-- **FTE:**  1
+- **FTE:**  2
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
+| 0a to 0d. | License, Docs, Testing, etc. | As in Milestone 1 |
 | 1. | Kafka configuration scripts | We will create scripts to setup Kafka and event channels |  
-| 2. | Vault configuration scripts | We will create scripts to setup HashiCorp Vault with appropriate commands for setting up secret engine and names |  
+| 2. | Vault configuration scripts | We will create scripts to setup HashiCorp Vault with appropriate commands for setting up transit engine and key names |  
 | 3. | Vault test scripts | We will provide a set of scripts to test the vault features required for managing the keys for FIAT tokens |  
 | 4. | Kafka pub/sub test programs | We will provide a set of programs to publish and subscribe to the specific event channels |  
-| 5. | Gateway Service Setup: Service setup | The gateway service will be built using Open-source IntelliJ IDEA, Kotlin/Java. A gradle build file will be setup  |  
+| 5. | Gateway Service Setup | The gateway service will be built using Open-source IntelliJ IDEA, Kotlin/Java. The project gradle build file will be provided  |  
   
   
   
 ### Milestone 3 — FIAT to Poly Stable Token Issuance 
 
 - **Estimated Duration:** 1 month
-- **FTE:**  1
+- **FTE:**  2
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 1. | FIAT to Poly tokens JSON | All Jsons will be finalized for this service |  
+| 0a to 0d. | License, Docs, Testing, etc. | As in Milestone 1 |
+| 1. | FIAT to Poly tokens JSON | All relevant Jsons will be finalized for this service |  
 | 2. | Gateway Function: Integration with Polymesh | The gateway service will be integrated with Polymesh local |  
-| 4. | Gateway Issue Function | The issue function in the gateway will be implemented to interact with Polymesh that enables issuance of FIAT tokens. |  
-| 3. | Gateway Transfer Function | The transfer function in the gateway will be implemented to interact with Polymesh that enables transfer of FIAT tokens between wallets. |  
+| 4. | Gateway Issue Function | The issue function in the gateway will be implemented to interact with Polymesh that enables issuance of FIAT equivalent Poly stable tokens. |  
+| 3. | Gateway Transfer Function | The transfer function in the gateway will be implemented to interact with Polymesh that enables transfer of Poly stable tokens between wallets. |  
 | 4. | Kafka client API to request FIAT conversion | The API will be implemented to request the issuer for FIAT to Poly token conversion |  
 | 5. | Kafka client API to request issue of Poly FIAT tokens | The API will be implemented to request Poly token issuance (minting) |  
 | 6. | Kafka client API to transfer of Poly FIAT tokens | The API will be implemented to transfer Poly tokens between parties |  
@@ -232,12 +234,13 @@ For each milestone,
 ### Milestone 4 — Poly Stable Token Redemption 
 
 - **Estimated Duration:** 1 month
-- **FTE:**  1
+- **FTE:**  2
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 1. | Poly stable tokens to FIAT JSON | All Jsons will be finalized for this service |  
+| 0a to 0d. | License, Docs, Testing, etc. | As in Milestone 1 |
+| 1. | Poly stable tokens to FIAT JSON | All relevant Jsons will be finalized for this service |  
 | 2. | Gateway Redemption Function | The redemption function in the gateway will be implemented to interact with Polymesh that enables redemption of Poly tokens. |  
 | 3. | Kafka client API to request FIAT redemption | The API will be implemented to request issuer to redeem Poly tokens and convert to FIAT position|  
 | 4. | Kafka Bank API to request Poly token redemption | The API will be implemented for issuer to request redemption of Poly tokens |  
@@ -246,13 +249,14 @@ For each milestone,
 ### Milestone 5 — Full integration, testing and delivery 
 
 - **Estimated Duration:** 1 month
-- **FTE:**  1
+- **FTE:**  2
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
+| 0a to 0d. | License, Docs, Testing, etc. | As in Milestone 1 |
 | 1. | Client test program for bank customer | This test program should be able to request issuance and redemption of Poly stable tokens with the FIAT gateway service |  
-| 2. | Bank test program | This test program should enable a bank to request issuance, transfer and redeem Poly stable tokens against FIAT positions |  
+| 2. | Bank/Issuer test program | This test program should enable a bank to request issuance, transfer and redeem Poly stable tokens against FIAT positions |  
 | 3. | Client integration testing doc| A document will be outlined to perform client integration and testing the life-cycle features |  
 | 4. | Bank integration testing doc| A document will be outlined to perform bank integration and testing the life-cycle features |  
 | 5. | Final Release to Polymesh Repo| The completed project will all source code, documentation, test scripts etc. will be committed to the Polymesh repo at the prescribed directory |  
