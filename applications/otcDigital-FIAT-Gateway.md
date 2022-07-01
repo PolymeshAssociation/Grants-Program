@@ -15,17 +15,18 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 Please provide the following:
 
-- Project Name. FIAT Gateway
+- Project Name.   **FIAT Gateway**
 - A brief description of your project:    
 
-       The FIAT Gateway provides a secure,  reliable and fully open-source middleware infrastructure to banks so they can issue FIAT stable tokens on Polymesh against customer bank deposits. The gateway enables banks with a 2-way channel for minting against bank deposits as well as burning fiat tokens on Polymesh with credit going to the depository accounts. 
+The FIAT Gateway provides a secure,  reliable and fully open-source middleware infrastructure to banks so they can issue FIAT stable tokens on Polymesh against customer bank deposits. The gateway enables banks with a 2-way channel for minting against bank deposits as well as burning fiat tokens on Polymesh with credit going to the depository accounts. 
+
 - An indication of how your project relates to / integrates into Polymesh ecosystem.   
 
-       The project provides a regulatory compliant way to issue, transfer and redeem FIAT tokens in Polymesh thus enabling Delivery vs Payment (DvP) for security tokens on Polymesh. Unlike public stablecoins, these tokens are managed by banks against their customer deposits and hence can meet regulatory compliance. 
+The project provides a regulatory compliant way to issue, transfer and redeem FIAT tokens in Polymesh thus enabling Delivery vs Payment (DvP) for security tokens on Polymesh. Unlike public stablecoins, these tokens are managed by banks against their customer deposits and hence can meet regulatory compliance. 
 
 - An indication of why your team is interested in creating this project.  
 
-        In our interactions with global banks, it became very clear that banks prefer settlement finality via atomic DvP and want to avoid any sort of settlement failures leading to huge credit risk. Banks have also indicated that they are unable to use public stablecoins such as USDC due to lack of regulatory clarity and credit risk against stablecoin providers. Hence, our solution would enable adoption of Polymesh for its security token infrastructure and the gateway's stable token features against bank deposits. otcDigital has built several institutional security asset classes such as bonds, commercial paper, structured notes and regulatory compliant wrapped cryptos on Polymesh. The fiat infrastructure will complete the feature set required by banks to operate and run security token marketplace using otcDigital or third party platforms. 
+In our interactions with global banks, it became very clear that banks prefer settlement finality via atomic DvP and want to avoid any sort of settlement failures leading to huge credit risk. Banks have also indicated that they are unable to use public stablecoins such as USDC due to lack of regulatory clarity and credit risk against stablecoin providers. Hence, our solution would enable adoption of Polymesh for its security token infrastructure and the gateway's stable token features against bank deposits. otcDigital has built several institutional security asset classes such as bonds, commercial paper, structured notes and regulatory compliant wrapped cryptos on Polymesh. The fiat infrastructure will complete the feature set required by banks to operate and run security token marketplace using otcDigital or third party platforms. 
 
 ### Project Details
 
@@ -33,30 +34,30 @@ We expect the teams to already have a solid idea about your project's expected f
 
 - Mockups/designs of any UI components  
 
-      Please refer to the **otcDigital FIAT Transfer.png** file for a sample UI  
-      ![image not found] (applications/otcDigital FIAT Transfer.png "FIAT Transfer")
+Please refer to the **otcDigital FIAT Transfer.png** file for a sample UI  
+![image not found] (applications/otcDigital FIAT Transfer.png "FIAT Transfer")
 
 - Data models / API specifications of the core functionality  
 
-      The data model will be primarily based on JSON to reflect the transfer functions and the core transfer features will reflect Polymesh asset transfer functions. In addition, the model will specify the Currency, Issuer, Department, Customer ID, Customer Account fields for minting and redemption of fiat tokens. 
+The data model will be primarily based on JSON to reflect the transfer functions and the core transfer features will reflect Polymesh asset transfer functions. In addition, the model will specify the Currency, Issuer, Department, Customer ID, Customer Account fields for minting and redemption of fiat tokens. 
 - An overview of the technology stack to be used  
 
-      Please refer to the **otcDigital FIAT Tech Stack.png** file. The technology architecture enables multiple departments within a bank can independently or collectively interact with the gateway for managing FIAT tokens. 
+Please refer to the **otcDigital FIAT Tech Stack.png** file. The technology architecture enables multiple departments within a bank can independently or collectively interact with the gateway for managing FIAT tokens. 
 - Documentation of core components, protocols, architecture, etc. to be deployed
 
-      Core Components: Gateway services written in Kotlin, Java. Apache Kafka (open-source platform for integration with core banking systems), HashiCorp Vault for basic Polymesh key management, Polymesh Relayer docker service for connecting to the Polymesh Node
+Core Components: Gateway services written in Kotlin, Java. Apache Kafka (open-source platform for integration with core banking systems), HashiCorp Vault for basic Polymesh key management, Polymesh Relayer docker service for connecting to the Polymesh Node
 
-      Protocols: JMS, JSON 
+Protocols: JMS, JSON 
       
 - PoC/MVP or other relevant prior work or research on the topic.  
 
-      In Polymesh, we have deployed and tested simple FIAT tokens such as RUSD, RGBP
+In Polymesh, we have deployed and tested simple FIAT tokens such as RUSD, RGBP
    
 - What your project is **_not_** or will **_not_** provide or implement
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious.  
 
-      - The gateway is stateless and hence it does not provide any historic data of prior transactions
-      - No UI will be provided as the gateway is a service
+    - The gateway is stateless and hence it does not provide any historic data of prior transactions
+    - No UI will be provided as the gateway is a service
 
 ### Ecosystem Fit
 
@@ -64,22 +65,25 @@ Help us locate your project in the Polymesh ecosystem / landscape and what probl
 
 - Where and how does your project fit into the ecosystem?  
 
-      The project is a critical component to migrate trillions of US dollars of institutional deposits into bank operated FIAT tokens on Polymesh 
+The project is a critical component to migrate trillions of US dollars of institutional deposits into bank operated FIAT tokens on Polymesh 
+
 - Who is your target audience (wallet/UI developers, designers, your own user base, yourself)?  
 
-       Global Banks, Institutional Investors, Regional and Community Banks managing trillions of dollars of TradFi assets
+Global Banks, Institutional Investors, Regional and Community Banks managing trillions of dollars of TradFi assets
 - What need(s) does your project meet?  
 
-      Atomic DvP supporting instant settlement and settlement guarantee
+Atomic DvP supporting instant settlement and settlement guarantee
+
 - Are there any other projects similar to yours in the Polymesh ecosystem?  
 
-      Not to our knowledge. Otherwise we would have used such a feature. While we understand there is on-going discussions with other stable coin providers, these may not be workable with banks who would want to control the flow of FIAT tokens against customer deposit accounts and within their own desks. That's part of the reason why a multi-desk pub-sub feature is included and in-addition it is expected that the FIAT gateway would be run within each bank's internal infrastructure for security reasons. 
+Not to our knowledge. Otherwise we would have used such a feature. While we understand there is on-going discussions with other stable coin providers, these may not be workable with banks who would want to control the flow of FIAT tokens against customer deposit accounts and within their own desks. That's part of the reason why a multi-desk pub-sub feature is included and in-addition it is expected that the FIAT gateway would be run within each bank's internal infrastructure for security reasons. 
+
   - If so, how is your project different?  
   
-        See above
+See above
   - If not, are there similar projects in related ecosystems?  
   
-        See above
+See above
 
 ## Team :busts_in_silhouette:
 
@@ -101,20 +105,21 @@ Help us locate your project in the Polymesh ecosystem / landscape and what probl
 
 - **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)  
 
-      216 Navajo Ct, Morganville, NJ 07751, USA
+216 Navajo Ct, Morganville, NJ 07751, USA
+
 - **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Acme Ltd.)  
 
-      SwapsHub Company Inc. (doing business as otcDigital)
+SwapsHub Company Inc. (doing business as otcDigital)
 
 ### Team's experience
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.  
    
-     We have extensive experience in building and deploying large scale financial products and networks in capital markets. These range from cash equities, forwards, lending, otc derivatives to global banks such as Bank of America, Morgan Stanley, Macquarie Bank etc. 
+<i>We have extensive experience in building and deploying large scale financial products and networks in capital markets. These range from cash equities, forwards, lending, otc derivatives to global banks such as Bank of America, Morgan Stanley, Macquarie Bank etc. </i>
 
 If anyone on your team has applied for a grant previously, please list the name of the project and legal entity here.  
 
-    None
+None
 
 
 ### Team Code Repos
@@ -145,7 +150,7 @@ If you've already started implementing your project or it is part of a larger re
 - references to conversations you might have had related to this project with anyone from the Web3 Foundation,
 - previous interface iterations, such as mock-ups and wireframes.  
 
-      Please refer to the diagrams uploaded and the architecture described above.
+Please refer to the diagrams uploaded and the architecture described above.
 
 
 ## Development Roadmap :nut_and_bolt:
@@ -166,9 +171,10 @@ For each milestone,
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months): 5 months
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)   2 FTE
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; since the grant is paid out in POLYX, the amount will be calculated according to the exchange rate at the time of payment.    USD 240,000
+- **Total Estimated Duration:** Duration of the whole project: **5 months**
+- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)   **2 FTE**
+- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; since the grant is paid out in POLYX, the amount will be calculated according to the exchange rate at the time of payment.  
+**USD 240,000**
 
 ### Milestone 1 — Initial Documentation
 
@@ -271,6 +277,7 @@ Please include here
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
 - Work you have already done.  
+
      otcDigital has built a whole ecosystem of trading platforms and network for all market participants: buy-side, sell-side and custodians. It intends to integrate the gateway with the otcDigital platform and offer it as part of its overall solution. 
 
 - If there are any other teams who have already contributed (financially) to the project.
@@ -278,4 +285,5 @@ Here you can also add any additional information that you think is relevant to t
   None
 
 - Previous grants you may have applied for.  
-   No provious grants were applied. 
+
+  No provious grants were applied. 
