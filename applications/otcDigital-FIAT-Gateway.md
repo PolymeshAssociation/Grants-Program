@@ -35,13 +35,15 @@ We expect the teams to already have a solid idea about your project's expected f
 - Mockups/designs of any UI components  
 
 Please refer to the **otcDigital FIAT Transfer.png** file for a sample UI  
+<img src="otcDigital FIAT Transfer.png" />
 
 - Data models / API specifications of the core functionality  
 
 The data model will be primarily based on JSON to reflect the transfer functions and the core transfer features will reflect Polymesh asset transfer functions. In addition, the model will specify the Currency, Issuer, Department, Customer ID, Customer Account fields for minting and redemption of fiat tokens. 
 - An overview of the technology stack to be used  
 
-Please refer to the **FIAT Gateway Tech stack.png** file. The tech stack consists of Polymesh local, HashiCorp Vault for development specific key management, otc fiat gateway, Apache Kafka for pub-sub events between banks and their customers. The technology architecture enables multiple departments within a bank can independently or collectively interact with the gateway for managing FIAT tokens. 
+Please refer to the **FIAT Gateway Tech stack.png** file. <img src="FIAT Gateway Tech stack.png" />
+The tech stack consists of Polymesh local with relayer, HashiCorp Vault for development specific key management, otc fiat gateway, Apache Kafka for pub-sub events between banks and their customers. The technology architecture enables multiple departments within a bank can independently or collectively interact with the gateway for managing FIAT tokens. 
 - Documentation of core components, protocols, architecture, etc. to be deployed
 
 Core Components: Gateway services written in Kotlin, Java. Apache Kafka (open-source platform for integration with core banking systems), HashiCorp Vault for basic Polymesh key management, Polymesh Relayer docker service for connecting to the Polymesh Node
@@ -208,7 +210,7 @@ For each milestone,
 | 2. | Vault configuration scripts | We will create scripts to setup HashiCorp Vault with appropriate commands for setting up transit engine and key names |  
 | 3. | Vault test scripts | We will provide a set of scripts to test the vault features required for managing the keys for FIAT tokens |  
 | 4. | Kafka pub/sub test programs | We will provide a set of programs to publish and subscribe to the specific event channels |  
-| 5. | Gateway Service Setup | The gateway service will be built using Open-source IntelliJ IDEA, Kotlin/Java. The project gradle build file will be provided  |  
+| 5. | Gateway Service Setup | The gateway service will be built using Open-source IntelliJ IDEA, Kotlin/Java. All application unit tests will be available under the IDEA platform. A project gradle build file will be provided  |  
   
   
   
