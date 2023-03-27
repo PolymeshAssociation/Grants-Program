@@ -1,6 +1,6 @@
 # Double Entry Accounting Style Export  
 
-* **Proposer:** [Polymath Research](https://polymath.network)
+* **Proposer:** [Polymesh Association](https://polymesh.network)
 * **Status:** Open
 
 ## Project Description :page_facing_up: 

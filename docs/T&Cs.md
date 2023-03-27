@@ -229,7 +229,7 @@ You shall at all times acknowledge and agree that certain risks exist in relatio
 * network source code is provided on an "AS IS" basis, without warranties and conditions of any kind, either express or implied, including, without limitation, any warranties or conditions of title, merchantability, fitness for a particular purpose, and non-infringement, unless otherwise required by mandatory applicable law.
 * The entire risk as to the quality and performance of using the network is borne by You.
 * You are solely responsible for determining the appropriateness of using or redistributing the network source code and/or any Derivative Work and assume any risks associated with Your exercise of permission granted under this License.
-* You are solely responsible to regularly check for any modifications and updates to the network source code published at https://github.com/PolymathNetwork/polymesh
+* You are solely responsible to regularly check for any modifications and updates to the network source code published at https://github.com/PolymeshAssociation/polymesh
 Intellectual property
 
 Polymesh Association retains all rights, title and interest in any intellectual property rights relating to its business (such as e.g. trademarks or logos on its Website or copyrights/know-how in other business offerings not related to the network).

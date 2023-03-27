@@ -28,7 +28,7 @@ If you find an open RFP here that you think you can address, feel free to [submi
 ### Security Token Orientated Block Explorer
 
 - [:arrow_right: finance-orientated-block-explorer.md](./finance-orientated-block-explorer.md)
-- **Proposer:** Polymath Research
+- **Proposer:** Polymesh Association
 
 #### Project Description :page_facing_up:
 
@@ -45,7 +45,7 @@ A chain explorer that is orientated to our exact data, showing assets, settlemen
 ### Hardware Wallet Integration
 
 - [:arrow_right: hardware-wallet-integration.md](./hardware-wallet-integration.md)
-- **Proposer:** Polymath Research
+- **Proposer:** Polymesh Association
 
 #### Project Description :page_facing_up:
 
@@ -62,7 +62,7 @@ Integrate Polymesh with additional hardware wallets (e.g. non-Ledger models).
 ### Double Entry Accounting Style Export
 
 - [:arrow_right: double-entry-accounting-style-export.md](./double-entry-accounting-style-export.md)
-- **Proposer:** Polymath Research
+- **Proposer:** Polymesh Association
 
 #### Project Description :page_facing_up:
 
@@ -79,7 +79,7 @@ Report export (or maybe integration to something like Quickbooks/Freshbooks etc)
 ### Enterprise Software Wallet Integration
 
 - [:arrow_right: enterprise-software-wallet-integration.md](./enterprise-software-wallet-integration.md)
-- **Proposer:** Polymath Research
+- **Proposer:** Polymesh Association
 
 #### Project Description :page_facing_up:
 
@@ -96,7 +96,7 @@ Add Polymesh support to the API one of enterprise wallets like [Zumo](https://de
 ### Mobile Wallet Options for Polymesh 
 
 - [:arrow_right: walletconnect-for-substrate.md](./walletconnect-for-substrate.md)
-- **Proposer:** Polymath Research
+- **Proposer:** Polymesh Association
 
 #### Project Description :page_facing_up:
 
@@ -115,13 +115,13 @@ This broadens the range of wallets that could be used with Polymesh dApps giving
 ### Source Connector for Kafka Connect
 
 - [:arrow_right: source-connector-for-kafka-connect.md](./source-connector-for-kafka-connect.md)
-- **Proposer:** Polymath Research
+- **Proposer:** Polymesh Association
 
 #### Project Description :page_facing_up:
 
 This allows to stream all events from Polymesh to Kafka systems. It can be then transformed, stored, accessed from many other systems.
 
-As an example in case of Polymath, one of the use cases would be current GraphQL implementation. At the moment it uses dedicated software that gets the data from the blockchain, saves it to a postgresql db and from there it can be accessed as GraphQL endpoint. If there is any other use case to use the full chain data, there is a high chance we would need to build that new solution from scratch, and we would have another system that synchronizes with the blockchain.
+As an example in case of Polymesh, one of the use cases would be current GraphQL implementation. At the moment it uses dedicated software that gets the data from the blockchain, saves it to a postgresql db and from there it can be accessed as GraphQL endpoint. If there is any other use case to use the full chain data, there is a high chance we would need to build that new solution from scratch, and we would have another system that synchronizes with the blockchain.
 
 Kafka as a source of truth could be used by any number of applications. It also supports schema evolution so there is a chance we would not have to resync everything from scratch each time an update is made.
 
